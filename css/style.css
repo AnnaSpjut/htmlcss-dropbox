@@ -48,6 +48,10 @@ li a{
   color: black;
 }
 
+.link{
+  background-color: rgb(0, 60, 255);
+}
+
 #jumbotron{
   background-color: #b4d0e7;
   height: 740px;
@@ -57,6 +61,12 @@ li a{
 .container-large{
   width: 1200px;
   margin: 0 auto;
+}
+
+.container-small{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 70px;
 }
 
 h1{
@@ -72,6 +82,7 @@ h1{
 
 .jumbo-text > p{
   padding-right: 30px;
+  font-weight: 500;
 }
 
 .prova > a{
@@ -85,6 +96,10 @@ h1{
   padding: 30px 0;
 }
 
+.arrow{
+  font-size: xx-large;
+}
+
 .jumbo-img > img{
   width: 800px;
 }
@@ -92,7 +107,8 @@ h1{
 /* debug */
 .debug .container-large,
 .jumbo-text,
-.jumbo-img{
+.jumbo-img,
+.container-small{
 border: 1px solid black;
 }
 /*
