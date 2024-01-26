@@ -55,19 +55,29 @@ li a{
 }  
 
 .container-large{
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
-.container-large > div{
-  display: flex;
+
+h1{
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
-  
+
+.jumbo-text{
+  width: 400px;
+}
+
+.jumbo-img > img{
+  width: 800px;
+}
 
 /* debug */
-.debug header,
-.debug nav,
-.debug .logo,
-.debug .container-large{
+.debug .container-large,
+.jumbo-text,
+.jumbo-img{
 border: 1px solid black;
 }
 /*
