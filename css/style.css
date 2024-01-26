@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body main{
+body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -13,11 +13,14 @@ body main{
     "wdth" 100;
 }
 
+.d-flex{
+  display: flex;
+}
 
 header{
   display: flex;
   justify-content: space-between;
-  background-color: white
+  background-color: white;
   height: 80px;
 }
 
@@ -37,10 +40,12 @@ display: flex;
 
 li{
   list-style: none;
+  padding: 30px;
 }
 
 li a{
   text-decoration: none;
+  color: black;
 }
 
 #jumbotron{
@@ -53,13 +58,19 @@ li a{
   width: 1000px;
   margin: 0 auto;
 }
+.container-large > div{
+  display: flex;
+}
   
 
 /* debug */
-.debug header{
+.debug header,
+.debug nav,
+.debug .logo,
+.debug .container-large{
 border: 1px solid black;
 }
-
+/*
 .debug nav{
   border: 1px solid black
 }
@@ -70,4 +81,4 @@ border: 1px solid black;
 
 .debug .container-large{
   border: 1px solid black;
-}
+}*/
