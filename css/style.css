@@ -122,8 +122,8 @@ h2{
 }
 
 .column{
-  width: calc(100% / 3);
-  height: 800px;
+  width: calc(100% / 3 - 33px);
+  height: 970px;
 }
 
 h3{
@@ -134,6 +134,9 @@ h3{
   padding: 25px;
 }
 
+.buy{
+  padding: 30px;
+}
 
 
 /* debug */
