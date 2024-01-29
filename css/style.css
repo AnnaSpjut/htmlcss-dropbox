@@ -17,6 +17,8 @@ body{
   display: flex;
 }
 
+/* HEADER */
+
 header{
   display: flex;
   justify-content: space-between;
@@ -48,10 +50,13 @@ li a{
   color: black;
 }
 
-.link{
+.link a{
   background-color: rgb(0, 60, 255);
   color: white;
+
 }
+
+/* SECTION JUMBOTRON  */
 
 #jumbotron{
   background-color: #b4d0e7;
@@ -67,7 +72,7 @@ li a{
 .container-small{
   width: 1000px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 h1{
@@ -95,20 +100,42 @@ h1{
 
 .prova{
   padding: 30px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .arrow{
   font-size: xx-large;
+  padding-top: 40px;
 }
 
 .jumbo-img > img{
   width: 800px;
 }
 
+/* SECTION BUSINESS PLAN */
+
+h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.radio-btn{
+  padding: 20px;
+  padding-left: 0;
+}
+
+.column{
+  width: calc(100% / 3);
+  height: 600px;
+}
+
+
+
 /* debug */
-.debug .container-large,
-.jumbo-text,
-.jumbo-img,
+.column,
 .container-small{
 border: 1px solid black;
 }
